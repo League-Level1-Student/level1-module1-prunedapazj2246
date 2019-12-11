@@ -10,6 +10,11 @@ public class RaceCar {
 	private String brand;
 	private int positionInRace;
 	public boolean damaged = false;
+	public RaceCar(String blah,int positionInRace,boolean damaged) {
+	this.brand = blah;
+	this.positionInRace = positionInRace;
+	this.damaged = damaged;
+	}
 	
 	/**
 	 * 
