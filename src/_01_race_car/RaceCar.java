@@ -67,7 +67,7 @@ public class RaceCar {
 		if (positionInRace > 15) 
 			positionInRace = 15;
 		damaged = true;
-		System.out.println("\nYour car has been damaged and needs a pit stop.\nThree cars zoomed by you.");
+		System.out.println("Your car has been damaged and needs a pit stop.Three cars zoomed by you.");
 	}
 	
 	/**
