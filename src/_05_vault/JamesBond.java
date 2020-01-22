@@ -1,10 +1,14 @@
 package _05_vault;
 
-public class JamesBondVaultRunner {
+public class JamesBond {
 	
 	public static void main(String[] args) {
-		Vault vault = new Vault();
 		
+		JamesBond j = new JamesBond();
+		Vault vault = new Vault(23212);
+
+		int f =j.findCode(vault);
+		System.out.println(f);
 	}
 int findCode(Vault a) {
 	boolean code = false;
@@ -14,9 +18,9 @@ int findCode(Vault a) {
 	if (code == true) {
 		return i;
 	}
-	return -1;
-	}
 	
+	}
+	return -1;
 }
 }	
 
